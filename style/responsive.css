@@ -1,0 +1,16 @@
+/* For mobile device  */
+
+@media screen and (max-width: 576px) {
+  /* header menu  */
+  .nav-links {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+
+  /* header banner section  */
+  .header-banner-section {
+    display: block;
+  }
+}
