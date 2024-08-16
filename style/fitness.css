@@ -264,13 +264,18 @@
   align-items: center;
 }
 
+.run-extra-image {
+  width: 50%;
+}
 .run-extra-image img {
   width: 100%;
   border-radius: 20px;
-  object-fit: cover;
+  object-fit: none;
+  object-position: 70% 30%;
 }
 .run-extra-details {
   width: 50%;
+  line-height: ;
 }
 
 .run-extra-details h2 {
@@ -421,6 +426,7 @@ footer {
 
 .footer-fitness-service ul {
   list-style: none;
+  margin-left: -40px;
 }
 .footer-fitness-service li {
   padding-top: 10px;
@@ -432,7 +438,7 @@ footer {
 }
 
 hr {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   opacity: 0.5;
 }
