@@ -13,4 +13,103 @@
   .header-banner-section {
     display: block;
   }
+  .header-banner {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* change habit section */
+  .change-habit-head {
+    width: 100%;
+  }
+  .change-habit-body {
+    display: block;
+  }
+
+  /* Running section  */
+  .run-extra-section {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .run-extra-image {
+    width: 100%;
+    padding: 10px;
+  }
+  .run-extra-details {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* BMI calculator  */
+  .bmi-calculator-details {
+    width: 100%;
+    flex-direction: column;
+  }
+  .bmi-calculator-chart {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bmi-calculator-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bmi-calculator-form p {
+    width: 100%;
+  }
+  .half-input {
+    width: 80%;
+  }
+  .half-input-1 {
+    width: 93%;
+  }
+  .full-input {
+    width: 93%;
+  }
+  .calculate-btn {
+    padding: 16px 100px;
+  }
+
+  /*Team Trainer seciton  */
+  .team-section {
+    width: 100%;
+  }
+  .team-member-heading {
+    width: 80%;
+  }
+  .team-member {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  /* location section  */
+  .location-section {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    gap: 50;
+    flex-direction: column;
+    text-align: center;
+  }
+  .location-address {
+    width: 100%;
+  }
+  .map {
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+  }
+  .location-address > ul > li {
+    text-align: start;
+  }
+
+  /* footer section  */
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-fitness-brand {
+    width: 100%;
+  }
 }
+/* =========Mobile device============== */
