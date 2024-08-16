@@ -33,6 +33,11 @@
     rgba(221, 218, 218, 0) 100%
   );
 }
+.nav-menu {
+  color: #ffffff;
+  display: none;
+  cursor: pointer;
+}
 
 /* navbar related styles  */
 .navbar {
