@@ -354,13 +354,64 @@ td {
   padding: 10px 20px;
 }
 
+.bmi-calculator-form {
+  width: 70%;
+}
 .bmi-calculator-form h3 {
   font-size: 2rem;
 }
 .bmi-calculator-form p {
   font-size: 1rem;
+  width: 92%;
   color: rgb(255, 255, 255, 0.65);
 }
+.bmi-data-input {
+  margin: 20px 0;
+}
+
+.half-input {
+  width: 40%;
+}
+.half-input-1 {
+  width: 45%;
+}
+.full-input {
+  width: 92%;
+}
+input::placeholder {
+  color: rgb(255, 255, 255, 0.65);
+}
+input:focus {
+  border: 1px solid #222222;
+}
+select {
+  color: rgb(255, 255, 255, 0.65);
+}
+select:focus {
+  border: 1px solid #222222;
+}
+select option {
+  background-color: #222222;
+}
+.input-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 20px;
+  margin: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.calculate-btn {
+  margin: 10px;
+  padding: 16px 60px;
+  border-radius: 45px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border: none;
+  color: white;
+  background-color: #e6533c;
+}
+
 /* Team member style  */
 .team-section {
   width: 80%;
@@ -454,6 +505,52 @@ td {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+/* location style  */
+.location-section {
+  width: 80%;
+  margin: 50px auto;
+  color: white;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(90, 92, 106) 0%,
+    rgb(32, 45, 58) 81.3%
+  );
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 100px;
+  border-radius: 20px;
+}
+.map {
+  border-radius: 20px;
+}
+
+.location-address {
+  width: 50%;
+}
+
+.location-address h2 {
+  font-size: 3rem;
+}
+
+.location-address > ul > li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  list-style: square;
+}
+
+.email-btn {
+  margin: 15px;
+  padding: 16px 60px;
+  border-radius: 45px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border: none;
+  color: white;
+  background-color: #e6533c;
 }
 
 /* footer style */

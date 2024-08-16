@@ -168,11 +168,15 @@
                 types o f diet will match to your physical condition
               </p>
               <div class="bmi-data-input">
-                <input type="text" placeholder="Height/cm" class="input-box" />
+                <input
+                  type="text"
+                  placeholder="Height/cm"
+                  class="input-box half-input"
+                />
                 <input
                   type="text"
                   placeholder="Weight/kg"
-                  class="input-box"
+                  class="input-box half-input"
                 /><br />
                 <input
                   type="number"
@@ -180,14 +184,24 @@
                   required
                   min="6"
                   max="90"
-                  class="input-box"
+                  class="input-box half-input"
                 />
-                <select name="sex" id="sex" class="input-box">
+                <select name="sex" id="sex" class="input-box half-input-1">
                   <option value="">Sex</option>
                   <option value="Male">Male</option>
                   <option value="Male">Female</option>
                   <option value="Male">Others</option></select
                 ><br />
+                <select
+                  name="activity"
+                  id="activity"
+                  class="input-box full-input"
+                >
+                  <option value="">Select an Activity Factor</option>
+                  <option value="Male">Walk</option>
+                  <option value="Male">Running</option>
+                  <option value="Male">Others</option>
+                </select>
                 <button class="calculate-btn">Calculate</button>
               </div>
             </div>
@@ -258,6 +272,33 @@
         </div>
       </div>
       <!-- Team section end  -->
+      <!-- Location section start  -->
+      <div class="location-section">
+        <div class="location-address">
+          <h2>Not so Far from your residance</h2>
+          <ul>
+            <li>Call us: +0101010101</li>
+            <li>
+              5201 Washington Ave,<br />
+              Suite 4, Racine, WI 53406
+            </li>
+          </ul>
+          <button class="email-btn">Email</button>
+        </div>
+        <div class="location-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.352035777139!2d-87.84579052533175!3d42.71743911245075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8805428e32d9ad7d%3A0x6fa6a6ae124c3221!2s5201%20Washington%20Ave%20%234%2C%20Mt%20Pleasant%2C%20WI%2053406%2C%20USA!5e0!3m2!1sen!2sbd!4v1723803845677!5m2!1sen!2sbd"
+            class="map"
+            width="600px"
+            height="400px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <!-- location-section-end  -->
     </main>
     <!-- Main Section End  -->
     <!-- footer section start  -->
